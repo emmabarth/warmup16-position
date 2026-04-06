@@ -2,3 +2,58 @@ body {
      background-color: blue;
      color:white;
 }
+
+.site-header {
+    background-color: green;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.box {
+    width: 60px;
+    height:60px;
+    background-color:blueviolet;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.header-nav {
+    background-color: black;
+
+}
+
+.header-nav-list {
+    display:flex;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.header-nav-link {
+    background-color: aqua;
+    color:brown;
+    padding: 10px;
+    display:block;
+}
+
+.dropdown {
+    background-color:rgb(189, 241, 224);
+    color: black;
+    position: absolute;
+    display:none; 
+
+}
+
+.has-dropdown {
+    position: relative;
+}
+
+.has-dropdown:hover .dropdown{
+    display:block;
+    transition: all;
+}
+
